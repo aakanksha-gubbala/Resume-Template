@@ -1,0 +1,92 @@
+%% This a minimalist LaTeX Resume Template for students in the technical industry.
+
+\documentclass[10pt]{article}
+
+\thispagestyle{empty}
+\usepackage[a4paper, hmargin=11mm, vmargin=11mm, top=11mm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{lipsum}
+
+\setcounter{secnumdepth}{0}
+\setstretch{1}
+\definecolor{battleshipgrey}{rgb}{0.25, 0.25, 0.28}
+
+\begin{document}
+{\centering
+\color{battleshipgrey}
+{\bf\huge Your Name}\\
+\rule{19cm}{0.5pt}}
+
+\indent\indent
+\parbox{\textwidth}{ 
+	\begin{tabbing}
+	\setstretch{1}
+		\hspace{3cm} \= \hspace{4cm} \= \kill 
+		{\bf Date of Birth} \> 00 Month 2000 \\
+		{\bf Nationality} \> Your Nationality \\
+		{\bf Personal Email} \> \href{mailto:example@xyz.com}{Enter your personal email} 
+	\end{tabbing}
+}
+\indent\indent\indent\indent 
+\parbox{\textwidth}{ 
+	\begin{tabbing} 
+		\hspace{3cm} \= \hspace{4cm} \= \kill 
+		{\bf Mobile Phone} \> +00 000000000 \\
+		{\bf Webpage} \> \href{webpage.io}{Your Webpage} \\ 
+		{\bf Student Email} \> \href{mailto:example@xyz.com}{Enter your student email} 
+	\end{tabbing}
+}
+
+
+\section{{\color{battleshipgrey}Personal Profile}}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\section{{\color{battleshipgrey}Education}}
+	\href{http://yourinstitute.edu}{\bf XYZ Technological University}\hfill 2018 - 2022 \\
+	Bachelors in Technology, {\bf GPA:} 9/10 \\
+	Home Paper: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{{\color{battleshipgrey}Experience}}
+	\setstretch{1.2}
+	{\bf Intern - XYZ Labs}\hfill Mar 2019 - Jun 2019  \\
+	\indent
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  \\
+	{\indent\bf Projects Undertaken:} \\
+	{\indent\textbullet\  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.} \\
+	{\indent\textbullet\  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+
+\section{{\color{battleshipgrey}Independent Projects}}
+	\begin{itemize}
+		\item{{\bf Product 1 -} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+
+		\item{{\bf Product 2 -} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+	\end{itemize}
+	
+\section{{\color{battleshipgrey}Licenses and Certifications}}
+	\begin{itemize}
+		\item{{\bf ABCXYZ}\hfill 2018 \\ 
+		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+	\end{itemize}
+
+\section{{\color{battleshipgrey}Skills}}
+	\parbox{\textwidth}{ 
+		\begin{tabbing} 
+			\hspace{4cm} \= \hspace{4cm} \= \kill 
+			{\bf Languages} \> \LaTeX \\ 
+			{\bf Softwares/Packages} \>  Microsoft Office Suite \\
+			{\bf Operating Systems} \> Windows, MacOS, Ubuntu
+		\end{tabbing}
+	}
+
+\section{{\color{battleshipgrey}Scholastic Achievements}}
+	\begin{itemize}
+		\setlength\itemsep{0.01cm}
+		\item{Top $1\%$ of students in National Entrance Exams}
+		\item{Recipient of The Young Scholar's Award in 2017 for exceptional academic performance.}
+	\end{itemize}
+
+\end{document}
