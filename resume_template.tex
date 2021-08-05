@@ -1,0 +1,134 @@
+%% This a minimalist LaTeX Resume Template for students in the technical industry.
+
+\documentclass[11pt]{article}
+
+\thispagestyle{empty}
+\usepackage[a4paper, hmargin=11mm, vmargin=11mm, top=11mm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage{soul}
+\usepackage[]{titlesec}%
+\titleformat{\section}
+{\Large\bfseries}
+{\thesection.}
+{0.33em}
+{\ul}
+
+\setcounter{secnumdepth}{0}
+\setstretch{1}
+\definecolor{battleshipgrey}{rgb}{0, 0,0}
+%%\definecolor{battleshipgrey}{rgb}{0.25, 0.25, 0.28}
+\pagenumbering{gobble}
+
+\begin{document}
+{\centering
+\color{battleshipgrey}
+{\bf\huge Your Name}\\
+\rule{19cm}{0.5pt}}
+
+\indent
+\parbox{\textwidth}{ 
+	\begin{tabbing}
+	\setstretch{1}
+		\hspace{4cm} \= \hspace{4cm} \= \kill 
+		{\bf Date of Birth} \> xx Month xxxx \\
+		{\bf LinkedIn} \> \href{linkedin}{linkedin} \\ 
+		{\bf Official Email} \> \href{mailto:example@abc.com}{example@abc.com} 
+	\end{tabbing}
+}
+\indent\indent\indent %% Change space between columns by adding indents
+\parbox{\textwidth}{ 
+	\begin{tabbing} 
+		\hspace{4cm} \= \hspace{4cm} \= \kill 
+		{\bf Mobile Phone} \> xxxxxxxx \\
+		{\bf XYZ} \> \href{ABC}{QWERTY} \\ 
+		{\bf Personal Email} \> \href{mailto:example@abc.com}{example@abc.com} 
+	\end{tabbing}
+}
+{\centering
+{\bf Address:} 966 SW. Foster St. Macon, GA 31204\\
+}
+{\centering
+\color{battleshipgrey}
+\rule{19cm}{0.5pt}}
+%% Education
+
+\section{Education}
+	\setstretch{1.2}
+	{\bf University}\hfill Location\\
+	Bachelors in XYZ, {\bf GPA:} 4.0/4\hfill xxxx - xxxx 
+%% Research Experience
+\section{Research Experience}
+	\setstretch{1.2}
+	{\bf University}\hfill Location\\
+	{\it Undergraduate Research Intern}\hfill Apr xxxx - Present\\
+	Guide: {\bf Professor ABC}, Dept. of MNO, XYZ\\
+	{\bf 1.  Lorem ipsum dolor sit amet, consectetur adipiscing elit}\hfill Apr xxxx - May xxxx
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%%new
+	{\bf 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit}\hfill May 2020 - Jan 2021
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%% Industrial Experience
+\section{Industrial Experience}
+	\setstretch{1.2}
+	{\bf QWERTY} \hfill Location\\
+	{\it Project Intern}\hfill  May xxxx - Jul xxxx\\
+	Project Supervisor: {\bf JFK}, Manager\\
+	{\bf Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%%Achievements
+\section{Awards and Achievements}
+	\setstretch{1.2}
+	\begin{itemize}
+		\setlength\itemsep{0.01cm}
+		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit}
+		\item{Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%% Projects
+\section{Projects}
+	\setstretch{1.2}
+	{\bf 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}\hfill Feb xxxx - Present \\
+	{\it Guide: {\bf Professor XYZ}, Professor, Dept. of ABC, XYZ}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+	{\bf 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}\hfill Aug xxxx - Dec xxxx (exp.) \\
+	{\it Guide: {\bf XYZ}, Professor, Dept. of ABC, XYZ}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%%Skills
+\section{Skills}
+	\vspace{-0.5cm}
+	\parbox{\textwidth}{ 
+		\begin{tabbing} 
+			\hspace{6cm} \= \hspace{4cm} \= \kill 
+			{\bf Simulation packages} \> ASPEN \\		
+			{\bf Computer Languages} \> Python, C, MATLAB \\ 
+			{\bf Softwares} \> Microsoft Office Suite, CorelDraw, SolidWorks\\
+			{\bf Operating Systems} \> Windows, Ubuntu, MacOS
+		\end{tabbing}
+	}
+\end{document}
