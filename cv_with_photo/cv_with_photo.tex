@@ -1,0 +1,150 @@
+%% This a minimalist LaTeX Resume Template for students in the technical industry.
+
+\documentclass[10pt]{article}
+
+\thispagestyle{empty}
+\usepackage[a4paper, hmargin=11mm, vmargin=11mm, top=11mm]{geometry}
+% \usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage{soul}
+\usepackage[]{titlesec}%
+\titleformat{\section}
+{\Large\bfseries}
+{\thesection.}
+{0.33em}
+{\ul}
+
+\setcounter{secnumdepth}{0}
+\setstretch{1}
+\definecolor{battleshipgrey}{rgb}{0, 0,0}
+%%\definecolor{battleshipgrey}{rgb}{0.25, 0.25, 0.28}
+\pagenumbering{gobble}
+
+\begin{document}
+{\centering
+\color{battleshipgrey}
+{\bf\huge Your Name}\\
+\rule{19cm}{0.5pt}}
+
+\parbox{\textwidth}{ 
+	\begin{tabbing}
+	\setstretch{1}
+		\hspace{3cm} \= \hspace{4cm} \= \kill 
+		\includegraphics[width=3cm, height=4cm, keepaspectratio]{passport_photo.jpg}
+	\end{tabbing}
+}
+\indent %% Change space between columns by adding indents
+\parbox{\textwidth}{ 
+	\begin{tabbing} 
+		\hspace{3cm} \= \hspace{4cm} \= \kill 
+		{\bf Date of Birth} \> xx Month xxxx \\
+		{\bf Mobile Phone} \> +xx xxxxxxxxxx \\
+		{\bf LinkedIn} \> \href{https://www.linkedin.com/}{www.linkedin.com/in/your-name/} \\ 
+		{\bf Email} \> \href{mailto:your.name@gmail.com}{your.name@gmail.com} \\ 
+		{\bf Address} \> 606-3727 Ullamcorper. Street Roseville NH 11523
+	\end{tabbing}
+}
+
+
+{\centering
+\color{battleshipgrey}
+\rule{19cm}{0.5pt}}
+
+%% Education
+\section{Education}
+	\setstretch{1.2}
+	{\bf University (XYZ)}\hfill Location\\
+	Bachelors in A, {\bf GPA:} 9.xx/10 (Rank x)\hfill 20xx - 20xx 
+
+%% Research Experience
+\section{Research Experience}
+	\setstretch{1.2}
+	{\bf University (XYZ)}\hfill Location\\
+	{\it Undergraduate Research Intern}\hfill Jan 20xx - Jun 20xx\\
+	Guide: {\bf Professor PQR}, Dept. of A\\
+	{\bf 1.  Lorem ipsum dolor sit amet, consectetur adipiscing elit}\hfill Apr 20xx - May 20xx
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+%%new
+	{\bf 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit}\hfill May 20xx - Jan 20xx
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+
+%% Industrial Experience
+\section{Industrial Experience}
+	\setstretch{1.2}
+	{\bf Company Name} \hfill Location\\
+	{\it Project Intern}\hfill  May 20xx - Sep 20xx\\
+	Project Supervisor: {\bf Name}\\
+	{\bf Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+
+%%Achievements
+% \section{Awards and Achievements}
+% 	\setstretch{1.2}
+% 	\begin{itemize}
+% 		\setlength\itemsep{0.01cm}
+% 		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+% 		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+% 		\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit}
+% 		\item{Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+% 	\end{itemize}
+
+%% Projects
+\section{Projects}
+	\setstretch{1.2}
+	{\bf Project 1}\hfill Aug 20xx - Nov 20xx\\
+	{\it Guide: {\bf Name}, Dept. of A, XYZ}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+	{\bf Project 2}\hfill Aug 20xx - Nov 20xx\\
+	{\it Guide: {\bf Name}, Dept. of A, XYZ}
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+	{\bf Project 3}\hfill Aug 20xx - Nov 20xx
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+	{\bf Project 3}\hfill Aug 20xx - Nov 20xx
+	\begin{itemize}
+	\setlength\itemsep{0.4px}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\item{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}
+	\end{itemize}
+
+%%Skills
+\section{Skills}
+	\vspace{-0.5cm}
+	\parbox{\textwidth}{ 
+		\begin{tabbing} 
+			\hspace{5cm} \= \hspace{4cm} \= \kill 
+			{\bf Simulation packages} \> GROMACS, Simulink\\		
+			{\bf Computer Languages} \> Python, MATLAB/Scilab/Octave, C, HTML/CSS, JavaScript\\ 
+			{\bf Softwares} \> Fusion 360, SolidWorks\\
+		\end{tabbing}
+	}
+\end{document}
